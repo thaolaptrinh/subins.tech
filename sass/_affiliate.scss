@@ -1,0 +1,38 @@
+.affiliate-container {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+
+    .media {
+        display: flex;
+
+        &-icon {
+            padding-right: 10px;
+
+
+        }
+
+
+    }
+}
+
+
+
+
+
+@media screen and (max-width: 767.98px) {
+    .affiliate-container {
+        display: grid;
+        grid-template-columns: 1fr;
+        padding: 5%;
+
+
+    }
+
+    .money {
+        display: none;
+    }
+
+
+
+
+}

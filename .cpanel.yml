@@ -1,0 +1,12 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/Partner VNweb/public_html/
+    - /bin/cp -rf images $DEPLOYPATH
+    - /bin/cp -rf admin $DEPLOYPATH
+    - /bin/cp -rf js $DEPLOYPATH
+    - /bin/cp -rf pages $DEPLOYPATH
+    - /bin/cp -rf sections $DEPLOYPATH
+    - /bin/cp -rf css $DEPLOYPATH
+    - /bin/cp -rf sass $DEPLOYPATH
+    - /bin/cp -rf index.php $DEPLOYPATH

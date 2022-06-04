@@ -1,0 +1,31 @@
+.form-login {
+
+
+    a.btn-login {
+        background-color: #28A645 !important;
+        color: #fff;
+    }
+
+
+    .captcha {
+        padding: 6px 12px;
+        font-size: 14px;
+        font-weight: 500;
+        color: #fff;
+        background-color: #333;
+        text-transform: uppercase;
+        border: none;
+        max-width: 100px;
+        text-align: center;
+    }
+
+    .input-captcha {
+        padding: 6px 12px;
+        font-size: 14px;
+        font-weight: 500;
+        color: #111;
+        text-transform: uppercase;
+        border: none;
+        max-width: 100px;
+    }
+}

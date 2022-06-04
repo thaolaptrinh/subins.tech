@@ -1,0 +1,55 @@
+.review-container {
+    margin: 0 auto;
+    width: 70%;
+    text-align: center;
+
+    img {
+        margin: 0 auto;
+
+    }
+
+    .testimonial {
+        text-align: center;
+        font-weight: 300;
+        color: #777;
+        opacity: .85;
+
+
+
+        p {
+            font-size: 18px;
+            margin-bottom: 18px;
+
+        }
+
+        &-author {
+            font-size: 11px;
+            font-weight: 400;
+            text-transform: uppercase;
+        }
+
+    }
+
+
+
+}
+
+.all-reviews a {
+    text-align: center;
+    color: #111;
+    text-decoration: underline;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+}
+
+
+
+@media screen and (max-width: 767.98px) {
+    .review-container {
+        margin: 0 auto;
+        width: 100%;
+        text-align: center;
+
+    
+    }
+}

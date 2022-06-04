@@ -1,0 +1,194 @@
+.footer {
+    background-color: #303030;
+    padding-bottom: 20px !important;
+
+
+    &-container {
+        display: grid;
+        grid-template-columns: 0.5fr 1fr;
+        gap: 0 15px;
+        padding: 35px 0;
+    }
+
+    .list {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+
+
+    }
+
+    &-logo {
+        width: 135px;
+        height: 55px;
+
+    }
+
+    &-links {
+        list-style: none;
+        display: grid;
+        gap: 10px 0;
+
+    }
+
+
+
+    &-link,
+    &-desc {
+        color: #fff;
+        font-size: 13px;
+    }
+
+    .opacity-50 {
+        opacity: 0.5 !important;
+
+    }
+
+    .opacity-80 {
+        opacity: 0.8 !important;
+
+    }
+
+    &-link:hover {
+        color: #fff !important;
+        opacity: 1 !important;
+    }
+
+
+    .copyright {
+        text-align: center;
+        font-size: 14px;
+
+
+    }
+
+
+}
+
+
+
+
+
+@media screen and (max-width: 375px) {
+
+    .footer {
+
+        &-container {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 15px;
+            padding: 0 50px;
+
+        }
+
+        &-logo {
+            width: 135px;
+            height: 55px;
+
+
+        }
+
+        &-links {
+            list-style: none;
+            display: grid;
+            gap: 5px 0;
+
+
+
+        }
+
+
+    }
+
+}
+
+
+@media screen and (max-width: 991.98px) {
+    .footer {
+
+        &-container {
+            display: grid;
+            grid-template-columns: 1fr;
+            padding: 0 50px;
+
+        }
+
+        .list {
+
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            padding: 25px 0;
+            gap: 15px;
+
+        }
+
+        &-logo {
+            width: 135px;
+            height: 55px;
+
+
+        }
+
+        &-links {
+            list-style: none;
+            display: grid;
+            gap: 5px 0;
+
+
+
+        }
+
+
+    }
+}
+
+
+@media screen and (min-width: 992px) {
+
+    .footer {
+
+        &-container {
+            display: grid;
+            grid-template-columns: 0.4fr 1fr;
+            gap: 0 15px;
+            padding: 35px 0;
+        }
+
+        .list {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+
+
+        }
+
+        &-link,
+        &-desc {
+            color: #fff;
+            font-size: 12px;
+        }
+
+        .opacity-50 {
+            opacity: 0.5 !important;
+
+        }
+
+        .opacity-80 {
+            opacity: 0.8 !important;
+
+        }
+
+        &-link:hover {
+            color: #fff !important;
+            opacity: 1 !important;
+        }
+
+
+        .copyright {
+            text-align: center;
+            font-size: 13px;
+
+
+        }
+
+
+    }
+}

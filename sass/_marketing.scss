@@ -1,0 +1,49 @@
+.mar-container {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 1fr 2fr;
+
+    .img-phone {
+        max-width: 100%;
+        vertical-align: middle;
+        height: auto;
+    }
+
+
+
+
+    .media {
+        padding-top: 10%;
+        min-height: 400px;
+
+        &-body {
+            display: flex;
+            justify-content: center;
+        }
+
+        &-ico {
+            width: 100px;
+            height: 100px;
+            margin-right: 10px;
+        }
+    }
+}
+
+
+
+@media screen and (max-width: 767.98px) {
+
+
+    .mar-container {
+        display: grid;
+        justify-content: center;
+        grid-template-columns: 1fr;
+
+        .img-phone {
+            display: none;
+        }
+
+
+    }
+
+}

@@ -1,0 +1,62 @@
+.infos {
+
+    display: flex;
+    justify-content: center;
+    text-align: center !important;
+    padding-top: 35px;
+
+
+    &-detail {
+
+        display: flex;
+        justify-content: center;
+        flex: 0 0 33.33%;
+
+    }
+
+    &-text {
+        padding-left: 50px;
+        margin-top: -7px;
+
+    }
+
+
+
+}
+
+
+
+
+
+@media screen and (max-width: 767.98px) {
+
+    .infos {
+
+        &-detail {
+            display: block;
+            text-align: center;
+
+        }
+
+        &-text {
+            padding-left: 0px;
+
+            margin-top: 10px;
+
+
+            .heading-large {
+                font-size: 20px;
+            }
+
+            .text-16px {
+                font-size: 10px;
+            }
+
+        }
+
+        .icon-infos {
+            font-size: 40px;
+        }
+
+    }
+}

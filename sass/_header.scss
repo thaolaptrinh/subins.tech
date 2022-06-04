@@ -1,0 +1,32 @@
+
+.header{
+    
+    width: 100%;
+    height: $height-header;
+    background: rgba(0,0,0,0.7);
+    box-shadow: 0 0 10px rgb(0 0 0 / 50%);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    
+
+    &-container{
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+        margin: 0 2%; 
+       
+   
+    }
+    &-logo{
+        width: 135px;
+        height: 55px;
+        // line-height: $height-header;
+    
+    
+    }
+}
+
+
+

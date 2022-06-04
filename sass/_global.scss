@@ -1,0 +1,236 @@
+html,
+body {
+    font-family: $font;
+    font-weight: 400;
+    background-color: #ffffff;
+    font-size: $font-size;
+    color: $text-color;
+    width: 100%;
+    overflow-x: hidden;
+
+}
+
+
+.page {
+    margin: 0 auto;
+
+}
+
+.full-page {
+    margin: 0 2%;
+
+}
+
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 0px 15px;
+
+}
+
+
+.page-section {
+    position: relative;
+    width: 100%;
+    padding: 50px 0px;
+
+
+}
+
+.relative {
+    position: relative;
+
+}
+
+.absolute {
+    position: absolute;
+}
+
+
+.text-primary {
+    color: $color-primary  !important;
+    font-weight: 700;
+
+}
+
+.btn {
+    display: inline-block;
+    padding: 6px 12px;
+    font-size: 14px;
+    text-align: center;
+    border: 1px solid transparent;
+    cursor: pointer;
+
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+
+    &-medium {
+        padding: 8px 37px;
+        font-size: 12px;
+        letter-spacing: 1px;
+
+        &:hover {
+            background-color: #fff;
+            color: #333;
+
+
+        }
+
+    }
+
+    &-border {
+        width: 250px;
+        color: #eee;
+        border: 2px solid #eee;
+        margin: 5px;
+
+    }
+
+    &-round {
+        border-radius: 25px;
+        -webkit-border-radius: 25px;
+        -moz-border-radius: 25px;
+        -ms-border-radius: 25px;
+        -o-border-radius: 25px;
+    }
+}
+
+
+
+.arrow {
+    font-size: 26px;
+}
+
+.bgray {
+    background-color: $bgray;
+}
+
+.row {
+    margin-right: -15px;
+    margin-left: -15px;
+
+}
+
+
+.icon-infos {
+    font-size: 55px;
+
+}
+
+.icon-s {
+    font-size: 44px;
+    color: #ffffff;
+}
+
+.mb-24 {
+    margin-bottom: 24px !important;
+}
+
+
+.mt-20 {
+    margin-top: 20px !important
+}
+
+.mb-20 {
+    margin-bottom: 20px !important;
+}
+
+
+
+
+
+.col {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+
+
+.bgr-dark {
+    background-color: #333;
+}
+
+@media screen and (min-width: 1200px) {
+    .form-control {
+        width: 65%;
+    }
+}
+
+
+a {
+    -webkit-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
+    -moz-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
+    -o-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
+    -ms-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
+    transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
+}
+
+.btn {
+    transition: all 0.2s cubic-bezier(0.000, 0.000, 0.580, 1.000);
+    -webkit-transition: all 0.2s cubic-bezier(0.000, 0.000, 0.580, 1.000);
+    -moz-transition: all 0.2s cubic-bezier(0.000, 0.000, 0.580, 1.000);
+    -ms-transition: all 0.2s cubic-bezier(0.000, 0.000, 0.580, 1.000);
+    -o-transition: all 0.2s cubic-bezier(0.000, 0.000, 0.580, 1.000);
+}
+
+.img-circle {
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-uppercase {
+    text-transform: uppercase;
+}
+
+
+
+
+
+
+@media (min-width: 576) {
+
+    .container {
+        max-width: 540px;
+
+    }
+
+}
+
+@media (min-width: 768px) {
+
+    .container {
+        max-width: 750px;
+
+    }
+
+}
+
+@media (min-width: 992px) {
+
+    .container {
+        max-width: 970px;
+
+
+    }
+
+}
+
+
+@media(min-width: 1200px) {
+
+    .container {
+        max-width: 1170px;
+
+    }
+
+}
