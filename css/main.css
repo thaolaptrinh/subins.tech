@@ -1,3 +1,17 @@
+hr {
+  border: 0;
+}
+
+.btn-warning {
+  color: #fff;
+  background-color: #f0ad4e;
+  border-color: #eea236;
+}
+
+.mt-30 {
+  margin-top: 30px;
+}
+
 .login-container {
   padding-top: 50px;
   padding-left: 70px;
@@ -143,7 +157,180 @@
 }
 
 .page-services-container {
-  padding: 50px;
+  padding-top: 50px;
+}
+.page-services-container .top {
+  padding-bottom: 15px;
+  margin-bottom: 15px;
+}
+.page-services-container .top .reseller-banner {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 80px;
+  padding: 0 20px 0 20px;
+  border-radius: 10px;
+  color: #fff;
+  background: linear-gradient(110deg, #ea037f, #0587f7);
+  text-decoration: none;
+  box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+.page-services-container .top .reseller-banner::before {
+  background-image: url("../images/reseller-banner.png");
+  background-position: 100%;
+  background-repeat: no-repeat;
+  background-size: contain;
+  content: " ";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 0;
+}
+.page-services-container .top .reseller-banner .title {
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: 2px;
+}
+.page-services-container .top .reseller-banner .btn-detail {
+  background: #ea037f;
+  font-size: 18px;
+  font-weight: 500;
+  position: absolute;
+  right: 30px;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+}
+.page-services-container .top .socical-ico {
+  padding-top: 13px;
+}
+.page-services-container .top .socical-ico a {
+  font-size: 18px;
+  color: #111;
+  margin: 0 15px;
+}
+.page-services-container .list {
+  border-radius: 5px;
+  clear: both;
+  box-shadow: 0px 0px 16px 0px rgba(86, 77, 77, 0.21);
+}
+.page-services-container .list-services td,
+.page-services-container .list-services th {
+  font-size: 13px;
+  padding: 16px 8px;
+  box-sizing: content-box;
+}
+.page-services-container .list-services thead th,
+.page-services-container .list-services tbody th {
+  text-align: left;
+  padding: 10px 18px;
+  border-bottom: 1px solid #111;
+}
+.page-services-container .list-services td {
+  border-top: 1px solid #ddd;
+  border-right: 1px solid #ddd;
+}
+.page-services-container .list-services td:first-child {
+  border-left: 1px solid #ddd;
+}
+.page-services-container .list-services tfoot th {
+  text-align: left;
+  padding: 10px 18px 6px;
+  border-top: 1px solid #111;
+}
+.page-services-container .list-services .info-service {
+  min-height: 20px;
+  padding: 9px 19px;
+  background-color: #f5f5f5;
+  border: 1px solid #e3e3e3;
+  border-radius: 4px;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+}
+
+@media screen and (max-width: 575.98px) {
+  .page-services-container .btn-detail {
+    display: none;
+  }
+}
+@media screen and (max-width: 767.98px) {
+  .page-services-container .title {
+    font-size: 18px !important;
+  }
+
+  .page-services-container .list {
+    width: 100%;
+    margin-bottom: 15px;
+    overflow-y: hidden;
+    border: 1px solid #ddd;
+  }
+}
+.faq-container {
+  padding-top: 50px;
+}
+.faq-container .faq-main {
+  padding-top: 20px;
+}
+.faq-container .faq-main .nav-link {
+  color: #111;
+  font-size: 18px;
+  padding: 10px 15px;
+}
+.faq-container .faq-main .nav-link.active {
+  color: #fff;
+  background: linear-gradient(110deg, #ea037f, #0587f7);
+}
+.faq-container .faq-main .tab-pane .col-6 {
+  float: left;
+  width: 50%;
+}
+.faq-container .faq-main .tab-pane .col-12 {
+  width: 100%;
+}
+.faq-container .faq-main .tab-pane .tab-title {
+  margin-top: 20px;
+  margin-bottom: 40px;
+  font-size: 32px;
+}
+.faq-container .faq-main .tab-pane .tab-text {
+  font-size: 18px !important;
+  margin-bottom: 36px;
+}
+.faq-container .faq-main .tab-pane .btn {
+  width: 100%;
+  color: #333;
+  background-color: #fff;
+  border-color: #ccc;
+  text-decoration: underline;
+}
+.faq-container .faq-main .tab-pane .btn:hover {
+  background-color: #e6e6e6;
+  border-color: #adadad;
+  text-decoration: none;
+}
+.faq-container .faq-main .tab-pane .sub-tabs-title {
+  font-size: 24px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+.faq-container .faq-main .tab-pane .sub-tabs-text {
+  font-size: 18px;
+  margin-bottom: 36px;
+}
+
+@media screen and (max-width: 767.98px) {
+  .tab-pane .col-6 {
+    width: 100% !important;
+  }
+}
+footer {
+  clear: left;
 }
 
 /*# sourceMappingURL=main.css.map */

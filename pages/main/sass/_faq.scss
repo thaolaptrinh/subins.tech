@@ -1,0 +1,99 @@
+.faq-container {
+    padding-top: 50px;
+
+
+
+    .faq-main {
+        padding-top: 20px;
+
+        .nav-link {
+            color: #111;
+            font-size: 18px;
+            padding: 10px 15px;
+        }
+
+
+
+        .nav-link.active {
+            color: #fff;
+            background: linear-gradient(110deg, #ea037f, #0587f7);
+        }
+
+
+        .tab-pane {
+            .col-6 {
+                float: left;
+                width: 50%;
+            }
+
+            .col-12 {
+
+                width: 100%;
+            }
+
+
+            .tab-title {
+                margin-top: 20px;
+                margin-bottom: 40px;
+                font-size: 32px;
+            }
+
+            .tab-text {
+                font-size: 18px !important;
+                margin-bottom: 36px;
+            }
+
+            .btn {
+                width: 100%;
+                color: #333;
+                background-color: #fff;
+                border-color: #ccc;
+                text-decoration: underline;
+
+
+                &:hover {
+                    background-color: #e6e6e6;
+                    border-color: #adadad;
+                    text-decoration: none;
+                }
+            }
+
+
+            .sub-tabs {
+                &-title {
+                    font-size: 24px;
+                    margin-top: 20px;
+                    margin-bottom: 30px;
+
+                }
+
+                &-text {
+                    font-size: 18px;
+                    margin-bottom: 36px;
+
+                }
+            }
+
+        }
+
+
+
+
+
+
+    }
+}
+
+
+@media screen and (max-width: 767.98px) {
+    .tab-pane {
+        .col-6 {
+            width: 100% !important;
+        }
+    }
+}
+
+
+footer {
+    clear: left;
+}
