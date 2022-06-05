@@ -8,23 +8,27 @@
         $temp = "";
     }
 
-    if ($temp == "login") {
-        include "./pages/main/login.php";
-    } elseif ($temp == "login/signup") {
-        include "./pages/main/signup.php";
+    if ($temp == "order") {
+        include "./main/order.php";
+
+    } elseif ($temp == "orders") {
+        include "./main/orders.php";
+
     } elseif ($temp == "services") {
-        include "./pages/main/services.php";
-    } elseif ($temp == "faq") {
-        include "./pages/main/faq.php";
-    } elseif ($temp == "news") {
-        include "./pages/main/news.php";
-    } elseif ($temp == "blog") {
-        include "./pages/main/blog.php";
-    } elseif ($temp == "discount") {
-        include "./pages/main/discount.php";
-    } else {
-        include "./pages/main/index.php";
+        include "./main/services.php";
+
+    } elseif ($temp == "updates") {
+        include "./main/updates.php";
+
+    } elseif ($temp == "support") {
+        include "./main/support.php";
+        
+    } elseif ($temp == "balance") {
+        include "./main/balance.php";
     }
+    // else {
+    //     include "./pages/main/index.php";
+    // }
 
 
 

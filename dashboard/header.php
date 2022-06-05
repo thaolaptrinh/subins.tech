@@ -10,7 +10,7 @@
         <ul class="menu" id="menu">
             <li class="menu-item">
 
-                <a href="index.php" class="menu-link">
+                <a href="" class="menu-link">
                     <i class="fa-solid fa-circle-user"></i>
                     Username</a>
             </li>
@@ -36,9 +36,9 @@
                     updates</a>
             </li>
             <li class="menu-item">
-                <a href="index.php?page=supports" class="menu-link">
+                <a href="index.php?page=support" class="menu-link">
                     <i class="fa-solid fa-headset"></i>
-                    supports</a>
+                    support</a>
             </li>
             <li class="menu-item">
                 <a href="index.php?page=balance" class="menu-link text-primary">
