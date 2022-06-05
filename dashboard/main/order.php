@@ -19,7 +19,7 @@
             <div class="dashboard-main">
 
                 <div class="dashboard-main-order">
-                    <a href="#" class="btn btn-warning mb-20">
+                    <a href="#" class="btn mb-20">
                         <i class="fa-solid fa-coins"></i>
                         Nạp tiền</a>
 
@@ -29,8 +29,8 @@
 
                         <div class="form-group">
                             <p>Danh mục</p>
-                            <select class="form-control" id="category">
-                                <option value="0">Chọn danh mục</option>
+                            <select class="form-control category" id="category">
+                                <option value="0" disabled selected>Chọn danh mục</option>
                                 <option value="1">Instagram follower</option>
                                 <!-- <option value="2">Instagram likes</option>
                             <option value="3">Instagram views</option> -->
@@ -45,8 +45,8 @@
 
                         <div class="form-group">
                             <p>Dịch vụ</p>
-                            <select class="form-control" id="category">
-                                <option value="0">Chọn dịch vụ</option>
+                            <select class="form-control service" id="service">
+                                <option value="0" disabled selected>Chọn dịch vụ</option>
                                 <option value="3">ID:[3] 👤 Followers (giá rẻ)</option>
 
 
@@ -150,3 +150,24 @@
         </div>
     </div>
 </div>
+
+
+<script>
+    var e = document.getElementById("category");
+    var service = document.getElementById("service");
+    service.disabled = true;
+
+    function show() {
+        var strUser = e.options[e.selectedIndex].value;
+        console.log(strUser)
+        if (strUser == "1") {
+            service.disabled = false;
+        } else {
+            service.value = 0;
+            service.disabled = true;
+        }
+    }
+    e.onchange = show;
+
+    show();
+</script>

@@ -8,12 +8,28 @@
         </div>
 
         <ul class="menu" id="menu">
-            <li class="menu-item">
+            <li class="menu-item" id="ad">
 
                 <a href="" class="menu-link">
                     <i class="fa-solid fa-circle-user"></i>
-                    Username</a>
+                    Username
+                    <span class="caret">
+                        <i class="fa-solid fa-caret-down"></i>
+                    </span>
+                </a>
+
+                <!-- <ul class="sub-login" style="display: block;">
+                    <li class="sub-item">
+                        <a href="index.php?page=logout" class="sub-link">
+                            <i class="fa-solid fa-right-from-bracket"></i>
+                            Logout</a>
+                        </a>
+                    </li>
+                </ul> -->
+
             </li>
+
+
             <li class="menu-item">
                 <a href="index.php?page=order" class="menu-link">
                     <i class="fa fa-cart-plus" aria-hidden="true"></i>

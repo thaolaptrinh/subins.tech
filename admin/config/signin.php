@@ -1,3 +1,4 @@
+
 <?php
 
 include "./connect.php";
@@ -17,4 +18,4 @@ if ($sql->num_rows > 0) {
     die('Login error!');
 }
 
-
+?>

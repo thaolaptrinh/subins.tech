@@ -15,11 +15,11 @@
                 ĐĂNG NHẬP / ĐĂNG KÝ</a>
 
 
-            <a href="#" class="btn btn-medium btn-round btn-border">
+            <a href="#freelikes" class="btn btn-medium btn-round btn-border">
                 <i class="fa-solid fa-heart"></i>
                 LIKES MIỄN PHÍ</a>
 
-            <a href="#" class="btn btn-medium btn-round btn-border">
+            <a href="index.php?page=services" class="btn btn-medium btn-round btn-border">
                 <i class="fa-solid fa-gem"></i>
                 DANH SÁCH DỊCH VỤ</a>
         </div>

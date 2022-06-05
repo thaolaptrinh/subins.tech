@@ -139,6 +139,7 @@ hr {
 .btn-medium:hover {
   background-color: #fff;
   color: #333;
+  border: none;
 }
 .btn-border {
   width: 250px;
