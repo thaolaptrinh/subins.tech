@@ -14,6 +14,11 @@ body {
   height: 100%;
 }
 
+::selection {
+  background-color: #000;
+  color: #fff;
+}
+
 body {
   line-height: 1.5;
 }
@@ -53,6 +58,17 @@ button {
   cursor: pointer;
 }
 
+ol,
+ul {
+  padding: 0px;
+  margin: 0px;
+}
+
+p {
+  margin: 0px;
+  padding: 0px;
+}
+
 html,
 body {
   font-family: "Roboto", sans-serif;
@@ -62,6 +78,11 @@ body {
   color: #333333;
   width: 100%;
   overflow-x: hidden;
+}
+
+hr {
+  color: inherit;
+  border-top: 1px solid;
 }
 
 .page {
@@ -139,6 +160,10 @@ body {
 
 .bgray {
   background-color: #f8f9fa;
+}
+
+.bgrauth {
+  background-color: #EDF2F9;
 }
 
 .row {
@@ -680,6 +705,7 @@ p {
 .footer {
   background-color: #303030;
   padding-bottom: 20px !important;
+  color: #fff;
 }
 .footer-container {
   display: grid;

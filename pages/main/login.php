@@ -1,12 +1,20 @@
-<div class="page-section">
+<div class="page-section bgrauth">
 
     <div class="container">
         <div class="login-container fadeInRight duration-1-5s">
 
             <div class="section-login">
-                <div class="img">
-                    <img src="../../images/Left.png" alt="">
+                <div class="login-body">
+                    <a href="#">
+                        Subins.tech
+                    </a>
+
+                    <p>Là hệ thống dịch vụ mạng xã hội instagram với tương tác một cách an toàn.
+                        Hệ thống hoạt động một cách có tổ chức, giúp tăng tương tác, tăng hiệu quả bán hàng, truyền thông.
+                    </p>
+                    <p>#subins , #tangsub, #tuongtacins, #tangtheodoimienphi, #tanglikemienphi, #tanglike, #tangtheodoi, #tangcmt, #instagram</p>
                 </div>
+
 
                 <div class="form-login">
 

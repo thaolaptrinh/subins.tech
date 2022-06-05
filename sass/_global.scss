@@ -10,6 +10,11 @@ body {
 
 }
 
+hr {
+    color: inherit;
+    border-top: 1px solid;
+
+}
 
 .page {
     margin: 0 auto;
@@ -106,6 +111,10 @@ body {
 
 .bgray {
     background-color: $bgray;
+}
+
+.bgrauth{
+    background-color: $bgrauth;
 }
 
 .row {

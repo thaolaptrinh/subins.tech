@@ -40,9 +40,9 @@
                     BLOG</a>
             </li>
             <li class="menu-item">
-                <a href="index.php?page=minigamne" class="menu-link text-primary">
+                <a href="index.php?page=discount" class="menu-link text-primary">
                     <i class="fa-solid fa-coins"></i>
-                    MINI GAME</a>
+                    discount</a>
             </li>
 
             <a href="#" class="menu-link" title="Switch to English">

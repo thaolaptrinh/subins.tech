@@ -12,10 +12,9 @@ $sql = mysqli_query($conn, $query);
 
 
 if ($sql->num_rows > 0) {
-    echo "Success!";
+    header("Location: ../../dashboard");
 } else {
     die('Login error!');
 }
 
 
-header("Location: ../dashboard");

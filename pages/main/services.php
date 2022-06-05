@@ -66,18 +66,18 @@
                             <td>3</td>
                             <td>👤 Followers</td>
                             <td>
-                                <font color="#389038">Fast</font>
+                                <span style="color: #389038;">Fast</span>
                                 <br>
-                                <font color="#552786">Tốc độ: ~ 1667-3099/giờ</font>
+                                <span style="color: #552786;">Tốc độ: ~ 1667-3099/giờ</span>
                                 <br>
-                                <font>Dich vụ độc quyền</font>
+                                <span>Dich vụ độc quyền</span>
                                 <div class="info-service">
                                     <ul>
                                         <li>Tỉ lệ tụt cao</li>
                                         <li>KHÔNG BẢO HÀNH</li>
                                     </ul>
                                 </div>
-                                <font>Enter profile link</font>
+                                <span>Enter profile link</span>
                                 <br>
                                 <br>
                                 <b>Yêu cầu bắt buộc: profile bật công khai</b>
@@ -120,17 +120,17 @@
                             <td>31</td>
                             <td>❤️ Likes</td>
                             <td>
-                                <font color="#389038">Fast</font>
+                                <span style="color: #389038;">Fast</span>
                                 <br>
-                                <font color="#552786">Tốc độ: ~ 12076-29338/giờ</font>
+                                <span style="color: #552786;">Tốc độ: ~ 12076-29338/giờ</span>
                                 <br>
-                                <font>Dich vụ giá rẻ</font>
+                                <span>Dich vụ giá rẻ</span>
                                 <div class="info-service">
                                     <ul>
                                         <li>KHÔNG BẢO HÀNH</li>
                                     </ul>
                                 </div>
-                                <font>Enter profile link</font>
+                                <span>Enter profile link</span>
                                 <br>
                                 <br>
                                 <b>Yêu cầu bắt buộc: profile bật công khai</b>
@@ -174,17 +174,17 @@
                             <td>64</td>
                             <td>🎥 Video views</td>
                             <td>
-                                <font color="#389038">Fast</font>
+                                <span style="color: #389038;">Fast</span>
                                 <br>
-                                <font color="#552786">Tốc độ: ~ 1054-1341/giờ</font>
+                                <span style="color: #552786;">Tốc độ: ~ 1054-1341/giờ</span>
                                 <br>
-                                <font>Dich vụ giá rẻ</font>
+                                <span>Dich vụ giá rẻ</span>
                                 <!-- <div class="info-service">
                                     <ul>
                                         <li>KHÔNG BẢO HÀNH</li>
                                     </ul>
                                 </div> -->
-                                <font>Enter profile link</font>
+                                <span>Enter profile link</span>
                                 <br>
                                 <br>
                                 <b>Yêu cầu bắt buộc: profile bật công khai</b>
@@ -226,17 +226,17 @@
                             <td>50</td>
                             <td>🎥 Auto likes</td>
                             <td>
-                                <font color="#cf3030">DELAY - BẢO TRÌ</font>
+                                <span style="color: #cf3030;">DELAY - BẢO TRÌ</span>
                                 <br>
-                                <font color="#552786">Tốc độ: không xác định</font>
+                                <span style="color: #552786;">Tốc độ: không xác định</span>
                                 <br>
-                                <font>Dich vụ độc quyền</font>
+                                <span>Dich vụ độc quyền</span>
                                 <div class="info-service">
                                     <ul>
                                         <li>KHÔNG BẢO HÀNH</li>
                                     </ul>
                                 </div>
-                                <font>Enter profile link</font>
+                                <span>Enter profile link</span>
                                 <br>
                                 <br>
                                 <b>Yêu cầu bắt buộc: profile bật công khai</b>
@@ -275,20 +275,20 @@
                         </tr>
                         <!-- id 96  -->
                         <tr>
-                            <td>50</td>
+                            <td>96</td>
                             <td>💬 Comments (custom)</td>
                             <td>
-                                <font color="#cf3030">DELAY - BẢO TRÌ</font>
+                                <span style="color: #cf3030;">DELAY - BẢO TRÌ</span>
                                 <br>
-                                <font color="#552786">Tốc độ: không xác định</font>
+                                <span style="color: #552786;">Tốc độ: không xác định</span>
                                 <br>
-                                <font>Dich vụ độc quyền</font>
+                                <span>Dich vụ độc quyền</span>
                                 <div class="info-service">
                                     <ul>
                                         <li>Nhận xét tích cực</li>
                                     </ul>
                                 </div>
-                                <font>Enter profile link</font>
+                                <span>Enter profile link</span>
                                 <br>
                                 <br>
                                 <b>Yêu cầu bắt buộc: profile bật công khai</b>
@@ -330,13 +330,13 @@
                             <td>2195</td>
                             <td>Instagram FREE Followers </td>
                             <td>
-                                <font color="#cf3030">DELAY - BẢO TRÌ</font>
+                                <span style="color: #cf3030;">DELAY - BẢO TRÌ</span>
                                 <br>
-                                <font color="#552786">Tốc độ: không xác định</font>
+                                <span style="color: #552786;">Tốc độ: không xác định</span>
                                 <br>
-                                <font>Dich vụ miễn phí</font>
+                                <span>Dich vụ miễn phí</span>
                                 <br>
-                                <font>Enter profile link</font>
+                                <span>Enter profile link</span>
                                 <br>
                                 <br>
                                 <b>Yêu cầu bắt buộc: profile bật công khai</b>
@@ -368,13 +368,13 @@
                             <td>333</td>
                             <td>Instagram FREE Likes </td>
                             <td>
-                                <font color="#cf3030">DELAY - BẢO TRÌ</font>
+                                <span style="color: #cf3030;">DELAY - BẢO TRÌ</span>
                                 <br>
-                                <font color="#552786">Tốc độ: không xác định</font>
+                                <span style="color: #552786;">Tốc độ: không xác định</span>
                                 <br>
-                                <font>Dich vụ miễn phí</font>
+                                <span>Dich vụ miễn phí</span>
                                 <br>
-                                <font>Enter profile link</font>
+                                <span>Enter profile link</span>
                                 <br>
                                 <br>
                                 <b>Yêu cầu bắt buộc: profile bật công khai</b>
