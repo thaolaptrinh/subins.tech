@@ -1,4 +1,6 @@
 <header class="header">
+
+
     <div class="header-container">
 
         <a href="index.php"> <img src="./images/logo.png" alt="" class="header-logo"></a>
@@ -54,5 +56,7 @@
 
         </ul>
     </div>
+
+
 
 </header>

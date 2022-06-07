@@ -72,7 +72,7 @@ hr {
     -ms-border-radius: 4px;
     -o-border-radius: 4px;
 
-   
+
 
     &-medium {
         padding: 8px 37px;
@@ -167,7 +167,8 @@ hr {
 
 @media screen and (min-width: 1200px) {
     .form-control {
-        width: 65%;
+        width: 65% !important;
+
     }
 }
 

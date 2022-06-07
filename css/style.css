@@ -204,7 +204,7 @@ hr {
 
 @media screen and (min-width: 1200px) {
   .form-control {
-    width: 65%;
+    width: 65% !important;
   }
 }
 a {
@@ -524,10 +524,6 @@ p {
   color: #333333;
   background-color: #ffffff;
   border: 1px solid #ccc;
-}
-
-.free-container {
-  margin: 0 15px 0 15px;
 }
 
 .mar-container {
